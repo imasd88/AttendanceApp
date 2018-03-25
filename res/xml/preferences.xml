@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="FTP Server" >
+        <EditTextPreference
+            android:key="prefsFTPHost"
+            android:summary="Set FTP Host"
+            android:title="FTP Server Address" />
+        <EditTextPreference
+            android:key="userName"
+            android:summary="Set Username"
+            android:title="Username" />
+        <EditTextPreference
+            android:key="password"
+            android:summary="Set password"
+            android:title="Password" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

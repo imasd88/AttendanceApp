@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attendance Recorder</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="signup">signup</string>
+    <string name="title">Title:</string>
+    <string name="name">Name:</string>
+    <string name="cls">Class:</string>
+    <string name="deprtt">Department:</string>
+    <string name="subject">Subject:</string>
+    <string name="namehere">Name Here</string>
+    <string name="date">Date Here</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="leave">Leave</string>
+    <string name="submit">Submit</string>
+    <string name="done">Done</string>
+    <string name="upload">Upload</string>
+    <string name="select">select</string>
+    <string name="copyright">&#169; UOL</string>
+    <string name="save">save</string>
+    <string name="desc">please select the file\n \t \t \t  and click</string>
+    <string name="logout">logout</string>
+    <string name="uploadDesc">please check files to upload</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#347703"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="2.4"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/btn1CHK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/layout_btn_bg"
+            android:text="1" />
+
+        <CheckBox
+            android:id="@+id/btn2CHK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn1CHK"
+            android:layout_below="@+id/btn1CHK"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/layout_btn_bg"
+            android:text="2" />
+
+        <CheckBox
+            android:id="@+id/btn3CHK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn2CHK"
+            android:layout_below="@+id/btn2CHK"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/layout_btn_bg"
+            android:text="3" />
+
+        <CheckBox
+            android:id="@+id/btn4CHK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn3CHK"
+            android:layout_below="@+id/btn3CHK"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/layout_btn_bg"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/upBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn4CHK"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/layout_btn_bg"
+            android:text="@string/upload" />
+
+        <TextView
+            android:id="@+id/tvUploadDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/uploadDesc"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+</LinearLayout>
